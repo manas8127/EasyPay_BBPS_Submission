@@ -1,0 +1,101 @@
+.dropdown {
+	width: 18em;
+	margin-top: 25vh;
+	margin-left: 42em;
+	/* margin-right: 45em; */
+	padding: 2em 1em 2em 1em;
+	/* background-color: #04aa6d; */
+	font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+		"Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.dropbtn {
+	background-color: #04aa6d;
+	/* margin-top: 10em; */
+	border-radius: 12px;
+	color: white;
+	padding: 16px;
+	font-size: 16px;
+	border: none;
+	width: 18em;
+	padding-top: 1.5em;
+	padding-bottom: 1.5em;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	-ms-border-radius: 12px;
+	-o-border-radius: 12px;
+}
+
+.dropdown-content {
+	margin-top: 1em;
+	overflow-y: scroll;
+	height: 15em;
+	border-radius: 12px;
+	display: none;
+	position: absolute;
+	background-color: #d4ffe6;
+	min-width: 18em;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	z-index: 1;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	-ms-border-radius: 12px;
+	-o-border-radius: 12px;
+}
+.dropdown-content::-webkit-scrollbar {
+	width: 12px;
+}
+.dropdown-content::-webkit-scrollbar-thumb {
+	background: #2ab6c0;
+	border-radius: 12px;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	-ms-border-radius: 12px;
+	-o-border-radius: 12px;
+}
+
+.dropdown-content::-webkit-scrollbar-thumb:hover {
+	background: #20868d;
+}
+
+.dropdown-content > a {
+	border-radius: 12px;
+	text-transform: uppercase;
+	margin-top: 1em;
+	padding-top: 14em;
+	color: black;
+	margin: 4px;
+	padding: 18px 18px 18px 18px;
+	text-decoration: none;
+	display: block;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	-ms-border-radius: 12px;
+	-o-border-radius: 12px;
+}
+
+.dropdown-content a:hover {
+	transition: 0.32s;
+	background-color: rgb(87, 212, 171);
+	-webkit-transition: 0.32s;
+	-moz-transition: 0.32s;
+	-ms-transition: 0.32s;
+	-o-transition: 0.32s;
+}
+
+.dropdown:hover .dropdown-content {
+	transition: 0.352s;
+	display: block;
+	-webkit-transition: 0.352s;
+	-moz-transition: 0.352s;
+	-ms-transition: 0.352s;
+	-o-transition: 0.352s;
+}
+
+.dropdown:hover .dropbtn {
+	transition: 0.32s;
+	background-color: #3abe81;
+	-webkit-transition: 0.32s;
+	-moz-transition: 0.32s;
+	-ms-transition: 0.32s;
+	-o-transition: 0.32s;
+}
